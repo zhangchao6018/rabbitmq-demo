@@ -1,0 +1,18 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: demo-order
+  datasource :
+    url: jdbc:mysql://localhost:3306/rabbit_task_finish?characterEncoding=utf-8
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+  #rabbitmq配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+

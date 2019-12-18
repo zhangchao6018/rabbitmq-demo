@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afb2c25c-504e-4e30-a7f5-882e564361f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/FinishApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/config/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/dao/FinishRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/dao/TaskHisRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/mq/FinishTaskDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/pojo/LearningCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/pojo/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/pojo/TaskHis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/finish/service/FinishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-finish/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/TodoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/config/AsyncTaskConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/config/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/dao/TaskHisRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/dao/TaskRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/mq/ChooseCourseTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/mq/TodoTaskDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/pojo/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/pojo/TaskHis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/pojo/XcTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/pojo/XcTaskHis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/classes/todo/service/TaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-todo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/service-finish/target/" />
+    <ignored path="$PROJECT_DIR$/service-todo/target/" />
+    <ignored path="$PROJECT_DIR$/../mybatis-plus-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../../shangguigu/LambdaDemo/target/" />
+    <ignored path="$PROJECT_DIR$/../javabasic/target/" />
+    <ignored path="$PROJECT_DIR$/../KafkaSimpleExample-master/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/exer/Testlambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_his.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-227" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-588" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/DateFormatThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/service-finish/pom.xml" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/dao/TaskRepository.java" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/mq/ChooseCourseTask.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-finish/src/main/java/finish/pojo/LearningCourse.java" />
+        <option value="$PROJECT_DIR$/service-finish/src/main/java/finish/dao/TaskHisRepository.java" />
+        <option value="$PROJECT_DIR$/service-finish/src/main/java/finish/dao/FinishRepository.java" />
+        <option value="$PROJECT_DIR$/service-finish/src/main/java/finish/service/FinishService.java" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/dao/TaskHisRepository.java" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/pojo/TaskHis.java" />
+        <option value="$PROJECT_DIR$/service-finish/src/main/java/finish/pojo/TaskHis.java" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/mq/TodoTaskDemo.java" />
+        <option value="$PROJECT_DIR$/service-finish/src/main/java/finish/mq/FinishTaskDemo.java" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/service/TaskService.java" />
+        <option value="$PROJECT_DIR$/service-todo/src/main/java/todo/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/service-todo/sql.txt" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/TestStreamAPI3.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/java8/TestLambda.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/MyPredicate.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/FilterByAge.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/FilterBySalary.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/TestLambda.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/MyFun.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/TestLambda2.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/DateFormatThreadLocal.java" />
+        <option value="$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/exer/Testlambda.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/maven/repository" />
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service-todo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="175" />
+    <option name="y" value="198" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/service-todo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/service-finish/src/main/resources" />
+      <recent name="$PROJECT_DIR$/service-finish/src/main/java" />
+      <recent name="$PROJECT_DIR$/service-todo/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.mycode.lambda" />
+      <recent name="todo.dao" />
+      <recent name="finish.pojo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.demo.mycode.lambda" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExamplesApplication">
+    <configuration name="TestLambda2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.mycode.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.mycode.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.mycode.lambda.TestLambda2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda2.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.mycode.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.mycode.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.mycode.lambda.TestLambda2" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.mycode.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.mycode.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.mycode.lambda.TestLambda" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testlambda.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.mycode.lambda.exer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.mycode.lambda.exer" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.mycode.lambda.exer.Testlambda" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamplesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.kafka.ExamplesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavabasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javabasic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.javabasic.JavabasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mybatisplusdemo.MybatisPlusDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestLambda.test6" />
+      <item itemvalue="JUnit.TestLambda2.test2" />
+      <item itemvalue="JUnit.TestLambda2.test4" />
+      <item itemvalue="JUnit.Testlambda.test1" />
+      <item itemvalue="Spring Boot.JavabasicApplication" />
+      <item itemvalue="Spring Boot.MybatisPlusDemoApplication" />
+      <item itemvalue="Spring Boot.ExamplesApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ExamplesApplication" />
+        <item itemvalue="JUnit.Testlambda.test1" />
+        <item itemvalue="JUnit.TestLambda2.test4" />
+        <item itemvalue="JUnit.TestLambda2.test2" />
+        <item itemvalue="JUnit.TestLambda.test6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afb2c25c-504e-4e30-a7f5-882e564361f5" name="Default Changelist" comment="" />
+      <created>1564891247805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564891247805</updated>
+      <workItem from="1564891249180" duration="973000" />
+      <workItem from="1564892253720" duration="15199000" />
+      <workItem from="1567753429499" duration="8613000" />
+      <workItem from="1569594638635" duration="419000" />
+      <workItem from="1569630527770" duration="1265000" />
+      <workItem from="1570461357725" duration="69000" />
+      <workItem from="1570503387646" duration="477000" />
+      <workItem from="1570780463743" duration="2465000" />
+      <workItem from="1575771361989" duration="8000" />
+      <workItem from="1575771389095" duration="29000" />
+      <workItem from="1575771438939" duration="23000" />
+      <workItem from="1575771478270" duration="30000" />
+      <workItem from="1575771843739" duration="25000" />
+      <workItem from="1575777982113" duration="33000" />
+      <workItem from="1575778349661" duration="3000" />
+      <workItem from="1576418137582" duration="10940000" />
+      <workItem from="1576596137674" duration="4183000" />
+    </task>
+    <task id="LOCAL-00001" summary="..">
+      <created>1576678013334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576678013334</updated>
+    </task>
+    <task id="LOCAL-00002" summary="..">
+      <created>1576678074949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576678074949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestLambda_test5 - 2019.12.16 at 01h 07m 43s.xml">
+      <configuration name="TestLambda.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test5 - 2019.12.16 at 01h 09m 27s.xml">
+      <configuration name="TestLambda.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test6 - 2019.12.16 at 01h 12m 19s.xml">
+      <configuration name="TestLambda.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test6 - 2019.12.16 at 01h 13m 34s.xml">
+      <configuration name="TestLambda.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test6 - 2019.12.16 at 01h 13m 43s.xml">
+      <configuration name="TestLambda.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda_test6 - 2019.12.16 at 01h 16m 03s.xml">
+      <configuration name="TestLambda.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda2_test2 - 2019.12.16 at 08h 31m 12s.xml">
+      <configuration name="TestLambda2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda2_test2 - 2019.12.16 at 08h 32m 15s.xml">
+      <configuration name="TestLambda2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLambda2_test4 - 2019.12.16 at 23h 57m 04s.xml">
+      <configuration name="TestLambda2.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testlambda_test1 - 2019.12.17 at 00h 16m 42s.xml">
+      <configuration name="Testlambda.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44754000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="175" y="198" width="1680" height="1027" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2820513" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8119658" visible="true" weight="0.63596493" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.498779" weight="0.39498433" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501221" side_tool="true" weight="0.39916405" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.498779" weight="0.2580982" />
+      <window_info anchor="bottom" id="GraphQL" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32967034" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-todo/src/main/java/todo/service/TaskService.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-finish/src/main/java/finish/service/FinishService.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-finish/src/main/java/finish/mq/FinishTaskDemo.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-todo/src/main/java/todo/mq/TodoTaskDemo.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-todo/src/main/java/todo/mq/TodoTaskDemo.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-finish/src/main/java/finish/mq/FinishTaskDemo.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-todo/src/main/java/todo/mq/TodoTaskDemo.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/Test.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/dao/TaskHisRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/sql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-finish/src/main/java/finish/mq/FinishTaskDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/TodoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/mq/ChooseCourseTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/mq/TodoTaskDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="47" column="32" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/config/AsyncTaskConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-todo/src/main/java/todo/dao/TaskRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="50" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-finish/src/main/java/finish/service/FinishService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7524">
+          <caret line="450" column="20" selection-start-line="450" selection-start-column="20" selection-end-line="450" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="159" column="10" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="1233" column="17" lean-forward="true" selection-start-line="1233" selection-start-column="17" selection-end-line="1233" selection-end-column="17" />
+          <folding>
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/TestStreamAPI3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2487">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/StreamApi2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/lambda/FilterEmployeeForSalary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/lambda/MyFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/lambda/FilterEmployeeForAge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/lambda/MyPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/MyPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/FilterByAge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/FilterBySalary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/lambda/TestLambda1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="125" column="44" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/TestLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#3071#3072#0" expanded="true" />
+            <element signature="e#3130#3131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="54" selection-start-line="54" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/MyFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/MyFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/TestLambda2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/exer/TestTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/exer/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/TestStreamAPI1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/exer/Trader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/exer/TestStreamAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19710">
+          <caret line="1152" column="48" selection-start-line="1152" selection-start-column="48" selection-end-line="1152" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KafkaSimpleExample-master/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KafkaSimpleExample-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KafkaSimpleExample-master/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KafkaSimpleExample-master/src/main/java/com/imooc/kafka/controller/ProduceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KafkaSimpleExample-master/src/main/java/com/imooc/kafka/ExamplesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/java8/DateFormatThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../shangguigu/LambdaDemo/src/main/java/com/demo/mycode/lambda/exer/Testlambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_his.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>examples</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

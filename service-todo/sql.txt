@@ -1,0 +1,1 @@
+INSERT INTO `task_his` VALUES ('4028858162959ce5016295b604ba0000', '2019-07-31 20:09:17', '2019-08-04 01:29:35', '2019-07-31 20:09:17', 'todo_test', 'ex_my_task', 'key_todo_money', '{\"courseId\":\"4028e58161bcf7f40161bcf8b77c,\",\"userId\":\"49\"}', NULL, '10201', NULL);
